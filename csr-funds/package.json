@@ -1,0 +1,11 @@
+{
+  "name": "csr-funds",
+  "version": "1.0.0",
+  "description": "CSR Fund Management System — React + Node.js + MongoDB",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend":  "npm run dev   --prefix backend",
+    "dev:frontend": "npm start     --prefix frontend",
+    "start:backend": "npm start    --prefix backend"
+  }
+}
